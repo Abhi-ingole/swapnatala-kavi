@@ -1,0 +1,894 @@
+<!DOCTYPE html>
+<html lang="mr" data-theme="dark">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>स्वप्रातला कवी – अभिषेक इंगोले</title>
+  <meta name="description" content="स्वप्रातला कवी – अभिषेक इंगोले यांचा पहिला मराठी कवितासंग्रह. प्रेम, विरह, स्वप्नं, संघर्ष आणि आशा."/>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='48' fill='%23B8860B'/><text y='.85em' font-size='58' x='12' fill='white' font-family='serif'>क</text></svg>"/>
+  <link href="https://fonts.googleapis.com/css2?family=Tiro+Devanagari+Marathi:ital@0;1&family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=Crimson+Pro:ital,wght@0,300;0,400;1,300;1,400&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+  <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+
+<!-- LOADER -->
+<div id="loader">
+  <div class="loader-core">
+    <div class="loader-ka">क</div>
+    <div class="loader-name">स्वप्रातला कवी</div>
+    <div class="loader-track"><div class="loader-bar"></div></div>
+    <div class="loader-author">— अभिषेक इंगोले —</div>
+  </div>
+</div>
+
+<!-- NAV -->
+<nav class="navbar" id="navbar">
+  <div class="nav-inner">
+    <a href="#home" class="nav-brand">
+      <span class="brand-ka">क</span>
+      <div class="brand-text">
+        <span class="brand-main">स्वप्रातला कवी</span>
+        <span class="brand-sub">अभिषेक इंगोले</span>
+      </div>
+    </a>
+    <div class="nav-links" id="navLinks">
+      <a href="#home" class="nl active">मुखपृष्ठ</a>
+      <a href="#poems" class="nl">कविता</a>
+      <a href="#about" class="nl">लेखक</a>
+      <a href="#feedback" class="nl">अभिप्राय</a>
+    </div>
+    <div class="nav-right">
+      <button class="theme-btn" id="themeBtn" onclick="toggleTheme()" title="Toggle theme">
+        <i class="fas fa-moon" id="themeIcon"></i>
+      </button>
+      <button class="hamburger" id="hamburger" onclick="toggleMenu()">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+  <!-- Mobile Menu -->
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="#home" class="mm-link" onclick="closeMenu()">मुखपृष्ठ</a>
+    <a href="#poems" class="mm-link" onclick="closeMenu()">कविता</a>
+    <a href="#about" class="mm-link" onclick="closeMenu()">लेखक</a>
+    <a href="#feedback" class="mm-link" onclick="closeMenu()">अभिप्राय</a>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero" id="home">
+  <div class="hero-overlay"></div>
+  <div class="floating-letters">
+    <span class="fl fl1">प्रेम</span>
+    <span class="fl fl2">स्वप्न</span>
+    <span class="fl fl3">आई</span>
+    <span class="fl fl4">मैत्री</span>
+    <span class="fl fl5">आशा</span>
+    <span class="fl fl6">विरह</span>
+  </div>
+  <div class="hero-wrap">
+    <div class="hero-left">
+      <div class="hero-badge"><i class="fas fa-book-open"></i> पहिला मराठी कवितासंग्रह</div>
+      <h1 class="hero-h1">
+        <span class="h1-line1">स्वप्रातला</span>
+        <span class="h1-line2">कवी</span>
+      </h1>
+      <p class="hero-tagline">"मनाच्या खोल कप्प्यातून उतरलेले शब्द..."</p>
+      <p class="hero-desc">प्रेम, विरह, स्वप्नं, संघर्ष आणि आशा यांचे सूक्ष्म भाव या २१ कवितांमध्ये गुंफले गेले आहेत. प्रत्येक ओळ तुमचं अंतर्मन हलवते.</p>
+      <div class="hero-actions">
+        <a href="#poems" class="btn-primary"><i class="fas fa-feather-alt"></i> कविता वाचा</a>
+        <a href="#about" class="btn-secondary"><i class="fas fa-user-circle"></i> लेखकाविषयी</a>
+      </div>
+      <div class="hero-meta">
+        <div class="hm-item"><span class="hm-num">२१</span><span class="hm-label">कविता</span></div>
+        <div class="hm-div"></div>
+        <div class="hm-item"><span class="hm-num">१</span><span class="hm-label">संग्रह</span></div>
+        <div class="hm-div"></div>
+        <div class="hm-item"><span class="hm-num">∞</span><span class="hm-label">भावना</span></div>
+      </div>
+    </div>
+    <div class="hero-right">
+      <div class="book-wrap">
+        <div class="book">
+          <div class="book-front">
+            <div class="book-front-inner">
+              <div class="bf-title">स्वप्रातला<br/>कवी</div>
+              <div class="bf-fig">🧍</div>
+              <div class="bf-author">अभिषेक इंगोले</div>
+            </div>
+          </div>
+          <div class="book-side"></div>
+          <div class="book-pages-edge"></div>
+        </div>
+        <div class="book-shadow"></div>
+      </div>
+      <blockquote class="hero-quote">
+        "कधी कधी शब्दच असतात...<br/>जे मनातलं सांगून जातात."
+      </blockquote>
+    </div>
+  </div>
+</section>
+
+<!-- POEMS -->
+<section class="poems-sec" id="poems">
+  <div class="sec-head">
+    <span class="sec-chip"><i class="fas fa-feather-alt"></i> कवितासंग्रह</span>
+    <h2 class="sec-title">सर्व <span class="gold">कविता</span></h2>
+    <p class="sec-sub">अभिषेक इंगोले यांच्या लेखणीतून उतरलेल्या २१ हृदयस्पर्शी कविता</p>
+  </div>
+
+  <!-- FILTER -->
+  <div class="poem-filters">
+    <button class="pf-btn active" data-cat="all">सर्व (२१)</button>
+    <button class="pf-btn" data-cat="prem">💕 प्रेम</button>
+    <button class="pf-btn" data-cat="aai">🙏 आई-बाप</button>
+    <button class="pf-btn" data-cat="maitri">🤝 मैत्री</button>
+    <button class="pf-btn" data-cat="samaj">🌿 समाज</button>
+  </div>
+
+  <!-- POEMS GRID -->
+  <div class="poems-grid" id="poemsGrid">
+
+    <!-- 1. गुरू -->
+    <article class="poem-card" data-cat="samaj">
+      <div class="pc-num">१</div>
+      <h3 class="pc-title">गुरू</h3>
+      <div class="pc-cat samaj">🌿 समाज</div>
+      <div class="pc-body">
+        <p>गुरू म्हणजे शिक्षणाचा पाया असतो,<br/>
+        गुरू म्हणजे ज्ञानाचा भांडार असतो ||१||</p>
+        <p>गुरू म्हणजे ईश्वराचा अवतार असतो,<br/>
+        त्यांचा शब्द म्हणजे अनमोल ज्ञानाचा असतो ||२||</p>
+        <p>जसे आई विना मुलगा नाही,<br/>
+        तसेच गुरू विना ज्ञान नाही ||३||</p>
+      </div>
+    </article>
+
+    <!-- 2. आपली आई -->
+    <article class="poem-card" data-cat="aai">
+      <div class="pc-num">२</div>
+      <h3 class="pc-title">आपली आई</h3>
+      <div class="pc-cat aai">🙏 आई-बाप</div>
+      <div class="pc-body">
+        <p>आई म्हणजे ईश्वराचे रूप असते।।<br/>
+        तिच्या विना दूसरे दैवत कोणतेही नसते ||धृ||</p>
+        <p>आहो नऊ महीने नऊ दिवस।।<br/>
+        पोटात घेऊन न लाजता कोठेही फिरते ती आई ||१||</p>
+        <p>आपण कोणताही गुन्हा करू दे कीतीही खोटं बोलूदे।।<br/>
+        तरीही आपल्यावर प्रेम करते ती आई ||२||</p>
+        <p>कुठलाही मूलगा रडू दे त्यात ती आपल्या।।<br/>
+        मुलाचा आवाज ओळखते ती आई ||३||</p>
+        <p>कोणाचे आणि कोणते ही लेकरू असू दे।।<br/>
+        पण सर्वावर माया करते ती आई ||४||</p>
+        <p>आपला हट्ट बाबांनी नाही पुरवला तर।।<br/>
+        कोणाकडूनही पैसे घेऊन आपला हट्ट पुरवते ती आई ||५||</p>
+        <p>बाबांनी आपल्याला कितीही मारले किती ही।।<br/>
+        ओरडले त्यातही आपला साथ देते ती आई ||६||</p>
+        <p>कोणीही आपल्याला कितीही मारू दे।।<br/>
+        शेवटी प्रेम करते ती आई ||७||</p>
+        <p>मूलगा कसाही असू दे कितीही ढ असू दे।।<br/>
+        पण माया जिला येते ती म्हणजे आपली आई ||८||</p>
+        <p>जसे गुरु विना ज्ञान नाही।।<br/>
+        तसेच आई विना मुल नाही ||९||</p>
+        <p>गुरूंचे शब्द असतात अनमोल।।<br/>
+        पण आईसारखे दूसरे असतेच कोण ||१०||</p>
+      </div>
+    </article>
+
+    <!-- 3. पहिले प्रेम -->
+    <article class="poem-card" data-cat="prem">
+      <div class="pc-num">३</div>
+      <h3 class="pc-title">पहिले प्रेम</h3>
+      <div class="pc-cat prem">💕 प्रेम</div>
+      <div class="pc-body">
+        <p>तूझ्या ह्या अश्या वागण्याला प्रेम म्हणावं,<br/>
+        की तुझा वेडेपणा माझे मलाच नाही कळले,<br/>
+        तुला पाहताच माझे हे मन आपोआप तुझ्याकडे वळले ||१||</p>
+        <p>मन वळताच तुझ्याकडे माझे भान हे हरपले,<br/>
+        तुझ्यावरती प्रेम एवढ्या लवकर झाले की माझ्या<br/>
+        मनाला काहीच नाही कळले ||२||</p>
+        <p>जर कळले असते माझ्या मनाला तर त्याने माझे<br/>
+        हृदयच तुला दिले असते,<br/>
+        त्याच क्षणी तुझ्यावरील माझे हे प्रेम तूझ्या<br/>
+        हृदयाला कळले असते ||३||</p>
+        <p>हे प्रेम आपल्या दोघाला कळता कळता खूप उशीर झाला,<br/>
+        जसा आजकालच्या पिक्चर मध्ये येतो तसा<br/>
+        दुरावा आपल्या दोघांच्या प्रेमातही आला ||५||</p>
+        <p>तरीही आज मला आठवतात आपल्या शाळेतील<br/>
+        ते खेळ ज्यात तु पहिला नंबर काढत होतीस,<br/>
+        काय सांगू सखे तुला हृदयाशी बोलता बोलता तू<br/>
+        माझ्या आठवणीत मात्र राहत होतीस ||६||</p>
+        <p>त्याच आठवणी आठवत आठवत आजही मी<br/>
+        तुझ्यावरती प्रेम करत आहे,<br/>
+        तू ये माझ्या आयुष्यात पुन्हा एकदा तुला कळेल<br/>
+        सखे माझे हे हृदय फक्त आणी फक्त तुझेच आहे.... ||७||</p>
+      </div>
+    </article>
+
+    <!-- 4. आई -->
+    <article class="poem-card" data-cat="aai">
+      <div class="pc-num">४</div>
+      <h3 class="pc-title">आई</h3>
+      <div class="pc-cat aai">🙏 आई-बाप</div>
+      <div class="pc-body">
+        <p>लहानपणी ऊन लागू नये म्हणून<br/>
+        तिच्या डोक्यावरचा पदर<br/>
+        ती माझ्या डोक्यावर धरायची,</p>
+        <p>चालायला त्रास होऊ नये म्हणून<br/>
+        काखेत घेउन ती भर उन्हात फिरायची,</p>
+        <p>रडायला लागलो तर<br/>
+        प्रेमाने समजावून गप्पं ती करायची,</p>
+        <p>दिवसभर आपलं पोट भरावं म्हणून<br/>
+        स्वतः मात्र ती उपाशी रहायची,</p>
+        <p>कोणताही निर्णय मी घेतला तर,<br/>
+        खंबीरपणे माझ्या पाठीशी उभी ती रहायची......</p>
+      </div>
+    </article>
+
+    <!-- 5. तूच ती -->
+    <article class="poem-card" data-cat="prem">
+      <div class="pc-num">५</div>
+      <h3 class="pc-title">तूच ती</h3>
+      <div class="pc-cat prem">💕 प्रेम</div>
+      <div class="pc-body">
+        <p>मला आठवतोय तो आपल्या कॉलेजचा पहिला दिवस<br/>
+        जेव्हा मी तुला पाहिलं होतं,<br/>
+        तुला पाहताच माझं हृदय पहिल्यांदा प्रेमानं हसलं होतं,</p>
+        <p>अग काय तुझा तो confidence होता,<br/>
+        असं वाटत होतं बाहेर पडणारा पाऊस सुध्दा तुझं<br/>
+        कौतुक करत होता,</p>
+        <p>त्याच क्षणी असं वाटलं तुला मनातलं सगळं काही सांगावं,<br/>
+        पण मझ्या मनात एकच इच्छा आहे तू माझ्याकडे<br/>
+        पाहून हसावं,</p>
+        <p>तु हसशील जेव्हा माझ्याकडे पाहून,<br/>
+        त्याच क्षणी मला वाटेल जावं तुझ्या प्रेमात वाहून,</p>
+        <p>तू दिसतेस जेव्हा मला माझ्या स्वप्नात,<br/>
+        असं वाटतं मी रहावं तुझ्या मनात,</p>
+        <p>तु बनशील का माझ्या स्वप्नातली खरी परी,<br/>
+        कारण माझा जीव आहे फक्त तुझ्यावरी,</p>
+        <p>अग मला आवडते तुझी घायाळ करणारी अदा,<br/>
+        त्यामुळेच तर मी झालोय तुझ्यावर फिदा,</p>
+        <p>मी माझी कविता आता इथेच थांबवतो,<br/>
+        आता तरी ती माझी व्हावी अशी मी देवाकडे<br/>
+        प्रार्थना करतो.....</p>
+      </div>
+    </article>
+
+    <!-- 6. प्रेमळ मैत्री -->
+    <article class="poem-card" data-cat="maitri">
+      <div class="pc-num">६</div>
+      <h3 class="pc-title">प्रेमळ मैत्री</h3>
+      <div class="pc-cat maitri">🤝 मैत्री</div>
+      <div class="pc-body">
+        <p>आठवण आली माझी तुला तर,<br/>
+          तु डोळे झाकू नकोस....</p>
+        <p>मी कितीही रागवलो तुझ्यावर तर,<br/>
+          मला तु Ignore करू नकोस....</p>
+        <p>जर माझ्याकडून काही चूक झाली असेल तर,<br/>
+        सांगायला कधी विसरू नकोस......</p>
+        <p>जिथे भेटशील तिथे एक स्माईल देउन, <br/>
+          बोलायला कधी विसरू नकोस.......</p>
+        <p>या सुंदर अशा आपल्या मैत्रीच्या नात्यात दूरावा<br/>
+        तु कधी आणू नकोस......</p>
+        <p>माझी चुक झाल्यास माफ कर पण,<br/>
+          आपल्या मैत्रीची जाणीव कमी करू नकोस !!</p>
+      </div>
+    </article>
+
+    <!-- 7. ताई -->
+    <article class="poem-card" data-cat="maitri">
+      <div class="pc-num">७</div>
+      <h3 class="pc-title">ताई</h3>
+      <div class="pc-cat maitri">🤝 मैत्री</div>
+      <div class="pc-body">
+        <p>तू थोडीशी भोळी आहेस<br/>
+        म्हणून तुला हृदयात सांभाळून ठेवलय<br/>
+        माहिती नाही तुला ही दुनिया<br/>
+        म्हणून तूला मी भाऊ बहिणीच्या बंधनात बांधून ठेवलंय</p>
+        <p>स्वभावाने शांत आणि प्रेमळ आहेस तू<br/>
+        पण मनाने मात्र खूप साधी आणि भोळी आहेस तू<br/>
+        सतत माझी काळजी करणारी माझी दुसरी<br/>
+        आई आहेस तू</p>
+        <p>ताई सवय झालेय तुझी आता<br/>
+        तू सतत मला माझ्या बाजूला हवी हवीशी वाटते<br/>
+        मी असतो बाहेर गावी तर<br/>
+        माझ्या या हृदयाला फक्त तुझीच कमी भासते.....</p>
+      </div>
+    </article>
+
+    <!-- 8. आदर्श लोकशाहीची लढाई -->
+    <article class="poem-card" data-cat="samaj">
+      <div class="pc-num">८</div>
+      <h3 class="pc-title">आदर्श लोकशाही ची लढाई.....</h3>
+      <div class="pc-cat samaj">🌿 समाज</div>
+      <div class="pc-body">
+        <p>स्वप्नांचे शहर पण गिरबीची लाट,<br/>
+        अंधारात सापडली मला लोकशाहीची ही वाट,<br/>
+        खऱ्याला खरं बोलणं खोट्याला खोटं,<br/>
+        हेच आहे लोकशाही असण्याचं उदाहरण छोट....</p>
+        <p>सध्या स्वातंत्र, समता, बंधुत्व ,<br/>
+        कुठे कसं हरलं,<br/>
+        का रे माझ्या मित्रांनो ,<br/>
+        तुम्ही लोकशाहीला असं मारलं....</p>
+        <p>भ्रष्टाचार, अत्याचार करतोय व्यापार काळा<br/>
+        लावुनी लोकशाहीच्या ओठास टाळा ,<br/>
+        कोर्ट, कायदा, सुरक्षा<br/>
+        ठेवुनी गहाण ,<br/>
+        या भ्रष्टाचारी दुनियेत मात्र<br/>
+        मोठाच तरतोय मरतोय लहान....</p>
+        <p>बलात्कारच तो...<br/>
+        दिवसाढवळ्या करताय ,<br/>
+        कोणी लोकशाहीसाठी लढताय ,<br/>
+        तर कोणी लोकशाहीसाठी मरताय<br/>
+        सुन्न आहे लोकशाही,<br/>
+        ती आहे स्तब्ध,<br/>
+        काय हेच होते लोकशाहीचे ७६ वर्षिचे प्रारब्ध....</p>
+        <p>न्याय, समानता, धार्मिक कट्टुरता दूर झाली,<br/>
+        अन्याय अत्याचार, असमानता मात्र वाढतच चालली<br/>
+        हे सर्व आता आपण, कशामुळे सहन करायचे,<br/>
+        आदर्श लोकशाहीच्या या लढाईत आपण नेहमी<br/>
+        लढत रहायचे......!!</p>
+      </div>
+    </article>
+
+    <!-- 9. तू माझी होशील का -->
+    <article class="poem-card" data-cat="prem">
+      <div class="pc-num">९</div>
+      <h3 class="pc-title">तू माझी होशील का??</h3>
+      <div class="pc-cat prem">💕 प्रेम</div>
+      <div class="pc-body">
+        <p>प्रेम काय आहे हे<br/>
+        तू मला सांगशील का?</p>
+        <p>तुझा नावाचा हा जप तू माझ्या<br/>
+        हृदयाला मात्र ऐकवशील का?</p>
+        <p>का वेड केलस तू माझ्या मनाला,<br/>
+        फक्त एवढं एकदा सांगून जाशील का?</p>
+        <p>वाट तुझी बघतो दररोज,<br/>
+        मला भेटायला मात्र तू येशील का ?</p>
+        <p>विसरलीस मला तू तरी चालेल,<br/>
+        पण माझ्या स्वप्नात मात्र येशील का?</p>
+        <p>या भरलेल्या डोळ्यांना एक हलकी,<br/>
+        वाऱ्याची झुळुक मात्र तू देशील का?</p>
+        <p>जशी कायम आठवणीत माझ्या राहतेस तू,<br/>
+        तसं तूझ्या आठवणीत तु मात्र मला ठेवशील का?</p>
+        <p>स्वप्राच्या या दुनियेत तरी तू,<br/>
+        फक्त माझीच एकदा होशील का ,<br/>
+        फक्त माझीच एकदा होशील का??</p>
+      </div>
+    </article>
+
+    <!-- 10. प्रेमाचा गोडवा -->
+    <article class="poem-card" data-cat="prem">
+      <div class="pc-num">१०</div>
+      <h3 class="pc-title">प्रेमाचा गोडवा</h3>
+      <div class="pc-cat prem">💕 प्रेम</div>
+      <div class="pc-body">
+        <p>जेव्हा आठवता तो दिवस<br/>
+        मला गारवा डाटतो ,<br/>
+        तुझ्या कोमल ओठात<br/>
+        तिळगुळाचा गोडवा वाटतो...</p>
+        <p>त्या मुसळधार पावसातं<br/>
+        आपली भेट ही झाहली,<br/>
+        तुझ्या केसातील फुले<br/>
+        हे पाहुनी हसत राहिली....</p>
+        <p>असे पाहता रूप तुझे<br/>
+        माझी नजर लागेलं,<br/>
+        तू येता माझ्या आयुष्यात<br/>
+        मी तुझ्या पुढेच झुकेल....</p>
+        <p>तुझी साडी ही साजरी<br/>
+        तिचा काठ ग सोनेरी,<br/>
+        चोळी ढाठली अंगाला<br/>
+        तुझी अदाच ग न्यारी....</p>
+        <p>मला पाहुनी सखे तुझ्या<br/>
+        गाली गुलाब हासले,<br/>
+        तुझ्या गालावरच्या कळीत<br/>
+        सखे माझे मन हे हरवले.....</p>
+        <p>डोळे भिडता डोळ्याला<br/>
+        मला तो प्रसंग आठवतो,<br/>
+        तुझ्या सावळ्या रूपाचा<br/>
+        नवा चांदवा वाटतो.....</p>
+        <p>असे पाहता सखे तुला<br/>
+        मला तुझ रूप हे आठवलं,<br/>
+        तुझ्या रूपाच्या धुक्यान<br/>
+        माझ हृदयच हरवलं......</p>
+      </div>
+    </article>
+
+    <!-- 11. सुंदर बालपण -->
+    <article class="poem-card" data-cat="samaj">
+      <div class="pc-num">११</div>
+      <h3 class="pc-title">सुंदर बालपण</h3>
+      <div class="pc-cat samaj">🌿 समाज</div>
+      <div class="pc-body">
+        <p>ओठांवर हसू होतं, खांद्यावर कसलंच ओझं नव्हतं,<br/>
+        पण आपले मित्र आपल्या जवळ असण्याचं<br/>
+        समाधान मात्र होतं ....</p>
+        <p>आठवण येता त्यांची मन येते भरून,<br/>
+        त्या बालपणीच्या आठवणीत मात्र माझे भानच<br/>
+        जाते हरवून.....</p>
+        <p>काय ते दिवस होते निमुणीच्या झाडामागे चंद्र<br/>
+        झोपत होता,<br/>
+        पैसा खोटा झाला की पाऊस मात्र पडत होता....</p>
+        <p>त्यावेळी एक रुपयात येत होता पोटभरून खाऊ,<br/>
+        आज आम्हाला आठवतात आज्जीच्या कुशितले<br/>
+        चिऊ आणी काऊ....</p>
+        <p>आहो काय तो सुखी व आनंदी काळ होता,<br/>
+        दररोज मैदानी खेळ खेळण्याचा आनंद मात्र<br/>
+        वेगळाच होता ....</p>
+        <p>बालपणी होतो आम्ही आमच्या विघिनिसारख्या<br/>
+        आईचे धाडसी पिल्ले,<br/>
+        ती मज्जाच वेगळी होती जेव्हा दिवाळीत बांधत<br/>
+        होतो आम्ही सारे मिळून किल्ले...</p>
+        <p>आजच्या आयुष्यात या सर्व गोष्टींची कमी ही<br/>
+        मला भासते,<br/>
+        आज मला जाणवते पैश्यापेक्षा आपले बालपण<br/>
+        हेच श्रीमंत असते.....</p>
+        <p>मोठे झालो आम्ही हे सर्व विचार येतात आमच्या<br/>
+        ध्यानी आणी मनी,<br/>
+        आता काय सांगू मित्रा गेले ते दिवस आणी<br/>
+        राहिल्या त्या फक्त आठवणी .....</p>
+      </div>
+    </article>
+
+    <!-- 12. माझी बहिणाबाई -->
+    <article class="poem-card" data-cat="maitri">
+      <div class="pc-num">१२</div>
+      <h3 class="pc-title">माझी बहिणाबाई</h3>
+      <div class="pc-cat maitri">🤝 मैत्री</div>
+      <div class="pc-body">
+        <p>अविश्वासू या जगात तू मला खूप आपुलकीची वाटली ,<br/>
+        तू माझ्या जीवनात येताच मला बहिणीची कमी<br/>
+        नाही भासली .....</p>
+        <p>तुझ्या वागण्यात वेगळंच प्रेम व आपुलकी आहे ,<br/>
+        म्हणूनच तर माझं तुझ्यावर सर्वात जास्त प्रेम<br/>
+        आहे ....</p>
+        <p>तुझी ही साथ अशीच माझ्यासोबत कायम राहूदे<br/>
+        मी देवाकडे एकच प्रार्थना करतो माझ्या या गोड<br/>
+        बहिणीला नेहमी आनंदी व सुखी राहूदे ....</p>
+      </div>
+    </article>
+
+    <!-- 13. जिवलग मैत्रीण -->
+    <article class="poem-card" data-cat="maitri">
+      <div class="pc-num">१३</div>
+      <h3 class="pc-title">जिवलग मैत्रीण</h3>
+      <div class="pc-cat maitri">🤝 मैत्री</div>
+      <div class="pc-body">
+        <p>कोण जाणे कशी अचानक मला ती माझ्या<br/>
+        आयुष्यात भेटली,<br/>
+        काही दिवसांच्या ओळखीत च मला ती<br/>
+        आपलीशी वाटली...!!</p>
+        <p>तिच्या प्रेमळ अश्या या सहवासात आमची मैत्री<br/>
+        कोमल पणे अशी फुलली,<br/>
+        आता प्रत्येक गोष्टीत मात्र तिच्याशिवाय माझी<br/>
+        कळी कधीच नाही खुलली....!!</p>
+        <p>मी कितीही रागाने जरी बोललो तरी ती कधीही<br/>
+        नाही चिडली,<br/>
+        माझ्या अश्या या रागीट स्वभावात ती मात्र<br/>
+        समजूतदारपणे च वागली....!!</p>
+        <p>मी कितीही चिडलो तरी समजावायला मात्र तीच<br/>
+        आली,<br/>
+        माझ्या मनातली तिची ही जागा आता माझ्या<br/>
+        हृदयात पक्की झाली....!!</p>
+        <p>आज जरी भांडलो तरी दोघांचे मन मात्र एकच,<br/>
+        हेडफोन जरी वेगळे असले तरी दोघांचे गाणे मात्र<br/>
+        एकच......!!</p>
+      </div>
+    </article>
+
+    <!-- 14. माझं गाव -->
+    <article class="poem-card" data-cat="samaj">
+      <div class="pc-num">१४</div>
+      <h3 class="pc-title">माझं गाव</h3>
+      <div class="pc-cat samaj">🌿 समाज</div>
+      <div class="pc-body">
+        <p>घर सुटलं नाती तुटली अन् सुटलं माझ गाव,<br/>
+        शहरात येऊन वाटलं होईल मोठं माझ नाव ||१||</p>
+        <p>शहरातील मोठ मोठ्या इमारती मागे माझे गाव<br/>
+        मला दिसेनासे झाले,<br/>
+        गावाकडच्या गोष्टी ऐकता ऐकता माझ्या<br/>
+        डोळ्यात मात्र पाणी आले ||२||</p>
+        <p>गावाकडच्या मैत्रीला काही तोडच नाही,<br/>
+        शहरात मात्र माणसांना माणसांची बोलायला<br/>
+        काही वेळच नाही ||३||</p>
+        <p>म्हणून महणतो मित्रा गाव ते गावच असतं<br/>
+        तू कितीही जा लांब आपल्यासाठी ते खासच<br/>
+        असतं ||४||</p>
+      </div>
+    </article>
+
+    <!-- 15. व्हॅलेंटाईन डे -->
+    <article class="poem-card" data-cat="prem">
+      <div class="pc-num">१५</div>
+      <h3 class="pc-title">व्हॅलेंटाईन डे.....</h3>
+      <div class="pc-cat prem">💕 प्रेम</div>
+      <div class="pc-body">
+        <p>माझे प्रेम तर तुला महिती आहे,<br/>
+        जसे माझ्या आई व बाबांवर वर आहे तसेच<br/>
+        तुझ्यावर ही आहे ||१||</p>
+        <p>आज व्हॅलेंटाईन डे आहे म्हणुन वेगळं काय प्रेम<br/>
+        व्यक्त करायचं,<br/>
+        आपण फक्त एकत्र आणि प्रेमाने आयुष्भर<br/>
+        असच सोबत राहायचं ||२||</p>
+        <p>मला नाही आवडत हा व्हॅलेंटाईन डे वगैरे साजरा<br/>
+        करायला,<br/>
+        कारण पुलवामा मध्ये झालेल्या या हल्याबद्दल<br/>
+        कोणाकडे टायमच नाही बोलायला ||३||</p>
+        <p>शिवरायांचे मावळे आम्ही आम्हाला नाही या<br/>
+        इंग्रजी दिवसाची आवड,<br/>
+        कारण आम्हाला आहे फक्त १९ फेब्रुवारीचेच<br/>
+        ओढ....</p>
+      </div>
+    </article>
+
+    <!-- 16. आज आहे व्हॅलेंटाईन डे -->
+    <article class="poem-card" data-cat="prem">
+      <div class="pc-num">१६</div>
+      <h3 class="pc-title">आज आहे व्हॅलेंटाईन डे....</h3>
+      <div class="pc-cat prem">💕 प्रेम</div>
+      <div class="pc-body">
+        <p>म्हणे या दिवशी सगळे प्रेमी - प्रेमिका<br/>
+        एकमेकांवर भरभरून प्रेम करतात,<br/>
+        मी पण करत होतो एकीवरती भरभरून प्रेम,<br/>
+        पण मला माहिती होत माझे नशीब नेहमी करते<br/>
+        माझ्यासोबत गेम ||१||</p>
+        <p>प्रेम करता करता कधी कळलेच नाही केव्हा गेलो<br/>
+        मी तिच्यात हरवून,<br/>
+        पण काय सांगू आजच्या व्हॅलेंटाईन डे च्या<br/>
+        दिवशीच ती गेली मला नाकारून ||२||</p>
+        <p>कधी - कधी असं वाटतं आता तरी पूर्ण होईल<br/>
+        माझं स्वप्न,<br/>
+        कारण मला सारखं आठवत होत तिचं माझ्याकडे<br/>
+        बघून गोड हसणं ||३||</p>
+        <p>याच गोड अशा हसण्याला प्रेम समजून मनातलं<br/>
+        सर्व काही सांगून टाकलं मी तीला,<br/>
+        हे सांगितल्यावरती reply मात्र तिने असा दिला,<br/>
+        त्याच वेळी मला कळाल हिने पण आपल्याला<br/>
+        गोड हसवून मात्र फक्त धोकाच दिला.....</p>
+      </div>
+    </article>
+
+    <!-- 17. हृदयाची घालमेल -->
+    <article class="poem-card" data-cat="prem">
+      <div class="pc-num">१७</div>
+      <h3 class="pc-title">हृदयाची घालमेल ...</h3>
+      <div class="pc-cat prem">💕 प्रेम</div>
+      <div class="pc-body">
+        <p>मी पाहिले तिला तिने पाहिले मला,<br/>
+        पाहता पाहता असे काही झाले...<br/>
+        तीला पाहताच माझे हृदय माझ्याशी बोलायला<br/>
+        लागले.....</p>
+        <p>बोलता बोलता माझे हृदय असे काही बोलले ...<br/>
+        आता या पुढे काय करावं माझे मलाच नाही<br/>
+        कळले......</p>
+        <p>माझ्या हृदयातील बोलणे तिच्या हृदयाला<br/>
+        कळले...<br/>
+        पण मी प्रेमाचे तीन शब्द बोलण्या आधीच तिचे<br/>
+        हृदय दुसऱ्या कोणाकडे तरी वळले......!!!</p>
+      </div>
+    </article>
+
+    <!-- 18. मी आहे लालपरी -->
+    <article class="poem-card" data-cat="samaj">
+      <div class="pc-num">१८</div>
+      <h3 class="pc-title">मी आहे लालपरी</h3>
+      <div class="pc-cat samaj">🌿 समाज</div>
+      <div class="pc-body">
+        <p>सांगते मी तुम्हाला माझी कहाणी खरी ||<br/>
+        मला सगळे जण म्हणतात लालपरी ||१||</p>
+        <p>मी आहे महाराष्ट्राची शान खरी ||<br/>
+        म्हणूनच तर मला म्हणतात लालपरी ||२||</p>
+        <p>आता मी काय सांगू तुम्हाला माझी व्यथा ||<br/>
+        लक्झरी बसमुळे तर कमी झाली आहे माझी<br/>
+        सत्ता || ३||</p>
+        <p>जेव्हा मी धावते रस्त्यावरी ||<br/>
+        तेव्हा सगळे जण म्हणतात चालली बघा आपली<br/>
+        लालपरी || ४||</p>
+        <p>मी आहे लालपरी, लालपरी ||<br/>
+        सगळ्यांच्या हृदयांवर राज्य करी ||५||</p>
+        <p>भर उन्हात मी तापते आणि तुम्हाला देते सावली||<br/>
+        पण लक्झरी बस मध्ये AC आणि स्लीपर सीट<br/>
+        आली अन् माझी वाट लावली ||६||</p>
+        <p>लहान लहान मुलांनी कधी बघितल्या नाहीत<br/>
+        खऱ्या खुऱ्या पऱ्या ||<br/>
+        पण त्यांनी बघितल्या आहेत महाराष्ट्रातल्या<br/>
+        लालपऱ्या ||७||</p>
+        <p>मी सोसते रस्त्यावरील खड्ड्यांचे घाव ||<br/>
+        आजकाल सगळ्यांकडे आल्यात गाड्या म्हणून<br/>
+        मला कोणी देतच नाही भाव ||८||</p>
+        <p>मी फिरत असते महाराष्ट्रात लांब लांब ||<br/>
+        म्हणूनच तर गावाकडील माणसं मला म्हणतात<br/>
+        थांब बाई थांब ||९||</p>
+        <p>म्हणूनच मी आहे लालपरी, लालपरी ||<br/>
+        राज्य करी सगळ्यांच्या हृदयांवरी ||१०||</p>
+      </div>
+    </article>
+
+    <!-- 19. बाप -->
+    <article class="poem-card" data-cat="aai">
+      <div class="pc-num">१९</div>
+      <h3 class="pc-title">बाप</h3>
+      <div class="pc-cat aai">🙏 आई-बाप</div>
+      <div class="pc-body">
+        <p>बाप म्हणजे बाप असतो,<br/>
+        जसा तो वरून कडक व कठोर दिसतो,<br/>
+        तसाच तो आतुन शांत व प्रेमळ असतो ||१||</p>
+        <p>बाप म्हणजे बाप असतो,<br/>
+        हा तोच असतो जो मूलांना सावली मिळावी, 
+        म्हणून स्वतः उन्हात उभा असतो ||२||</p>
+        <p>बाप म्हणजे बाप असतो,<br/>
+        मूलांना शिस्त लागावी म्हणून सारखं ओरडत असतो,<br/>
+        पण नंतर लाड पुरिवणारा ही तोच असतो ||३||</p>
+        <p>बाप म्हणजे बाप असतो,<br/>
+        मूलांना शॉपिंग ला पैसे देणारं,<br/>
+        पैश्याचं झाड आसतो ||४||</p>
+        <p>बाप म्हणजे बाप असतो,<br/>
+        आईचे प्रेम सर्वांना दिसते,<br/>
+        पण लपून छपून आपल्यावर प्रेम<br/>
+        करणारा आपला बाप असतो ||५||</p>
+        <p>बाप म्हणजे बाप असतो,<br/>
+        आपली आई जेवढी रडते तेवढा तो रडत नसतो,<br/>
+        कारण त्याला सर्वांना आधार दयायचा असतो ||६||</p>
+        <p>बाप म्हणजे बाप असतो,<br/>
+        मूलगी सासरी जाताना ती जास्त रडू नये म्हणून,<br/>
+        एका कोपऱ्यात बसून रडतो तो बाप असतो |७||</p>
+        <p>बाप म्हणजे बाप असतो,<br/>
+        स्वतःच्या इच्छा मनात ठेवून,<br/>
+        आपल्या मूलांच्या इच्छा जो पूर्ण करतो तो<br/>
+        आपला बाप असतो ||८||</p>
+        <p>अहो बाप म्हणजे बाप असतो,<br/>
+        आपलं मूल शिकून मोठं व्हावं म्हणून,<br/>
+        राब राब राबणारा तो देवमाणूस आपला बाप<br/>
+        असतो ||९||</p>
+        <p>बाप म्हणजे बाप असतो,<br/>
+        म्हातारपणी मूलगा ऑफिसला गेल्यावर,<br/>
+        घरची जबाबदारी पेलणारा बापच असतो ||१०||</p>
+        <p>बाप म्हणजे बाप असतो,<br/>
+        आता त्याच्याबद्दल बऱ्याच गोष्टी सांगायला<br/>
+        बसलो तर,<br/>
+        पूर्ण दिवसही पूरत नसतो ||११||</p>
+      </div>
+    </article>
+
+    <!-- 20. ती एक मैत्रीण -->
+    <article class="poem-card" data-cat="maitri">
+      <div class="pc-num">२०</div>
+      <h3 class="pc-title">ती एक मैत्रीण</h3>
+      <div class="pc-cat maitri">🤝 मैत्री</div>
+      <div class="pc-body">
+        <p>होती एक माझी मैत्रीण<br/>
+        ती माझ्या हृदयात असायची,<br/>
+        ती मनभरून हसली की<br/>
+        तिच्या गालात खळी पडायची</p>
+        <p>मला करमत नव्हते तिच्याशिवाय<br/>
+        जसे ती दिवा आणि मी ज्योती ,<br/>
+        आपले तर खूप होते<br/>
+        पण हक्काची मात्र तीच होती</p>
+        <p>तिचे माझ्यावरती रागवणे<br/>
+        म्हणजे माझ्या आईची धाक ,<br/>
+        सर्व मिठाई पण फिकी होती<br/>
+        जेव्हा ती प्रेमाने मारत होती मला हाक</p>
+        <p>हे सगळं त्याला विचारा<br/>
+        ज्याला हे सर्व आठवता खूप त्रास होतो,<br/>
+        त्रास म्हणजे नेमकं काय असतं<br/>
+        ते त्याला विचारा ज्याचा हृदयाचा तुकडा<br/>
+        हरवतो.....</p>
+      </div>
+    </article>
+
+    <!-- 21. प्रेम प्रवास -->
+    <article class="poem-card" data-cat="prem">
+      <div class="pc-num">२१</div>
+      <h3 class="pc-title">प्रेम प्रवास</h3>
+      <div class="pc-cat prem">💕 प्रेम</div>
+      <div class="pc-body">
+        <p>आजही मी तुझ्या प्रेमाच्या गोड आठवणीत आहे,<br/>
+        तू एकदा तरी मला भेटशील हे मी माझ्या<br/>
+        हृदयाला समजावीत आहे...</p>
+        <p>मला आठवतोय तो शाळेचा दिवस<br/>
+        जेव्हा तू मैदानावर खेळ खेळत होती,<br/>
+        पण तू खेळ खेळत असताना माझी नजर मात्र<br/>
+        फक्त तुलाच बघत होती...</p>
+        <p>तेव्हापासूनच खूप प्रेम आहे माझे तुझ्यावरती ,<br/>
+        पण काय माहिती कोणाची नजर लागली<br/>
+        आपल्या या सुंदर अश्या प्रेमावरती ....</p>
+        <p>मला अजूनही आठवतोय तो वर्ग ज्यात फक्त<br/>
+        आपण दोघंच होतो,<br/>
+        त्यावेळी मी फक्त आणि फक्त तुझ्या डोळ्यात<br/>
+        माझ्याविषयी प्रेम बघत होतो....</p>
+        <p>अगं काय ते गोंडस असं तुझं रूप होतं ,<br/>
+        आयुष्यभर तुझ्याच सोबती रहावं माझं मन मला<br/>
+        सांगत होतं...</p>
+        <p>किती सुंदर असं हे आपलं बालपण होत,<br/>
+        तुझं माझ्यावरती आणि माझं तुझ्यावरती मात्र<br/>
+        निरागस असं प्रेम होतं.....</p>
+        <p>मोठे झालो आपण दोघेही शिक्षणासाठी गेलो<br/>
+        होतो लांब,<br/>
+        आपल्या या प्रेमाच्या वाटेवरती मात्र अडून<br/>
+        राहिलाय अबोलकीचा हा खांब....</p>
+        <p>निशिबाने हनुमानाच्या जयंती निमित्त भेट ही<br/>
+        आपुली झाली,<br/>
+        माझ्या या वेड्या मनात परत तुझ्या प्रेमाची<br/>
+        चाहूल मात्र आली.....</p>
+        <p>वाटलं तेव्हाच तुला मनातील सर्व काही सांगावं,<br/>
+        पण हे सर्व सांगण्या आधीच तू माझ्याकडे फक्त<br/>
+        मैत्रीच नातं मागावं...</p>
+        <p>माझ्यासाठी खूप कठीण आहे आपलं<br/>
+        बालपणातील प्रेम हे विसरणं,<br/>
+        पण मला आताही आवडेल तुझ्या प्रेमात परत<br/>
+        एकदा घसरणं.....</p>
+        <p>मनापासून प्रेम केले आहे तुझ्यावरती आणि<br/>
+        आयुष्यभर सुध्दा करीन,<br/>
+        पुन्हा तू माझ्या आयुष्यातून जाऊ नये म्हणून मी<br/>
+        तुझ्यावरती दररोज कविता करीन.....</p>
+        <p>आता तरी निदान एक मैत्रीण म्हणून तू मेसेज<br/>
+        करावा,<br/>
+        नाहीतर असाच वाढत राहील आपल्या<br/>
+        दोघांमधील हा प्रेमाचा दुरावा......</p>
+      </div>
+    </article>
+
+  </div><!-- end poems-grid -->
+</section>
+
+<!-- ABOUT -->
+<section class="about-sec" id="about">
+  <div class="about-inner">
+    <div class="about-visual-col">
+      <div class="author-card">
+        <div class="ac-avatar">अ</div>
+        <div class="ac-name">अभिषेक इंगोले</div>
+        <div class="ac-role">मराठी कवी · महाराष्ट्र 🇮🇳</div>
+        <div class="ac-nums">
+          <div class="acn"><span>२१</span><label>कविता</label></div>
+          <div class="acn"><span>१</span><label>संग्रह</label></div>
+          <div class="acn"><span>∞</span><label>भावना</label></div>
+        </div>
+        <blockquote class="ac-quote">
+          "प्रत्येक स्वप्नात एक कवी दडलेला असतो.<br/>हे पुस्तक त्या कवीला जीवन देते."
+        </blockquote>
+        <a href="mailto:abhishekingole81@gmail.com" class="ac-email">
+          <i class="fas fa-envelope"></i> abhishekingole81@gmail.com
+        </a>
+      </div>
+    </div>
+    <div class="about-text-col">
+      <span class="sec-chip"><i class="fas fa-user-circle"></i> लेखकाविषयी</span>
+      <h2 class="sec-title">शब्दांना <span class="gold">पंख</span> दिले</h2>
+      <p class="about-p">अभिषेक इंगोले, एक तरुण मराठी कवी, ज्याने शब्दांना स्वप्नांच्या पंखावर बसवून आकाशात सोडलं आहे. त्यांची कविता ही केवळ साहित्य नाही, ती एक भावना आहे.</p>
+      <p class="about-p">"स्वप्रातला कवी" ही कवितांची एक अशी भावनिक यात्रा आहे जी तुमच्या हृदयाला स्पर्श करून जाईल. प्रेम, विरह, स्वप्नं, संघर्ष, आणि आशा यांचे सूक्ष्म भाव या कवितांमध्ये गुंफले गेले आहेत.</p>
+      <p class="about-p">लेखकाचा विश्वास आहे की कविता फक्त लिहिली जात नाही — ती मनापासून अनुभवली जाते. भावनांना शब्दरूप देण्याची आवड आणि जीवनातील अनुभव यांचे प्रतिबिंब या पुस्तकात उमटले आहे.</p>
+      <div class="about-tags">
+        <span class="tag"><i class="fas fa-heart"></i> प्रेमाची भाषा</span>
+        <span class="tag"><i class="fas fa-leaf"></i> मराठी साहित्य</span>
+        <span class="tag"><i class="fas fa-star"></i> तरुण आवाज</span>
+        <span class="tag"><i class="fas fa-map-marker-alt"></i> महाराष्ट्र</span>
+      </div>
+      <a href="#feedback" class="btn-primary"><i class="fas fa-envelope"></i> अभिप्राय पाठवा</a>
+    </div>
+  </div>
+</section>
+
+<!-- FEEDBACK -->
+<section class="feedback-sec" id="feedback">
+  <div class="sec-head">
+    <span class="sec-chip"><i class="fas fa-paper-plane"></i> अभिप्राय</span>
+    <h2 class="sec-title">आपले <span class="gold">विचार</span> सांगा</h2>
+    <p class="sec-sub">आपला अभिप्राय थेट अभिषेक इंगोले यांच्यापर्यंत पोहोचेल</p>
+  </div>
+
+  <div class="fb-container">
+    <!-- FORM -->
+    <form class="fb-form" id="fbForm">
+      <div class="fb-row">
+        <div class="fb-group">
+          <label for="fbName"><i class="fas fa-user"></i> आपले नाव <span class="req">*</span></label>
+          <input type="text" id="fbName" name="name" placeholder="नाव टाका..." required/>
+        </div>
+        <div class="fb-group">
+          <label for="fbEmail"><i class="fas fa-envelope"></i> ईमेल <span class="req">*</span></label>
+          <input type="email" id="fbEmail" name="email" placeholder="your@email.com" required/>
+        </div>
+      </div>
+      <div class="fb-group">
+        <label><i class="fas fa-star"></i> रेटिंग द्या</label>
+        <div class="star-row" id="starRow">
+          <span class="star" data-v="1">★</span>
+          <span class="star" data-v="2">★</span>
+          <span class="star" data-v="3">★</span>
+          <span class="star" data-v="4">★</span>
+          <span class="star" data-v="5">★</span>
+        </div>
+        <input type="hidden" id="fbRating" name="rating" value="5"/>
+      </div>
+      <div class="fb-group">
+        <label for="fbPoem"><i class="fas fa-book-open"></i> आवडलेली कविता</label>
+        <select id="fbPoem" name="poem">
+          <option value="">-- कविता निवडा (ऐच्छिक) --</option>
+          <option>१. गुरू</option><option>२. आपली आई</option>
+          <option>३. पहिले प्रेम</option><option>४. आई</option>
+          <option>५. तूच ती</option><option>६. प्रेमळ मैत्री</option>
+          <option>७. ताई</option><option>८. आदर्श लोकशाहीची लढाई</option>
+          <option>९. तू माझी होशील का?</option><option>१०. प्रेमाचा गोडवा</option>
+          <option>११. सुंदर बालपण</option><option>१२. माझी बहिणाबाई</option>
+          <option>१३. जिवलग मैत्रीण</option><option>१४. माझं गाव</option>
+          <option>१५. व्हॅलेंटाईन डे</option><option>१६. आज आहे व्हॅलेंटाईन डे</option>
+          <option>१७. हृदयाची घालमेल</option><option>१८. मी आहे लालपरी</option>
+          <option>१९. बाप</option><option>२०. ती एक मैत्रीण</option>
+          <option>२१. प्रेम प्रवास</option>
+        </select>
+      </div>
+      <div class="fb-group">
+        <label for="fbMessage"><i class="fas fa-comment-dots"></i> आपला संदेश <span class="req">*</span></label>
+        <textarea id="fbMessage" name="message" placeholder="पुस्तकाबद्दल आपले विचार, सूचना किंवा भावना लिहा..." rows="5" required></textarea>
+      </div>
+      <button type="submit" class="btn-primary full" id="fbSubmitBtn">
+        <i class="fas fa-paper-plane"></i> अभिप्राय पाठवा
+      </button>
+      <p class="fb-note"><i class="fas fa-info-circle"></i> आपला अभिप्राय <strong>abhishekingole81@gmail.com</strong> वर पाठवला जाईल</p>
+      <div class="fb-error" id="fbError"></div>
+    </form>
+
+    <!-- SUCCESS -->
+    <div class="fb-success" id="fbSuccess">
+      <div class="fs-icon">🙏</div>
+      <h3 class="fs-title">धन्यवाद!</h3>
+      <p class="fs-marathi">आपला अभिप्राय मिळाला आहे. आपण "स्वप्रातला कवी" साठी वेळ दिल्याबद्दल खूप आभारी आहोत! आपल्या सूचना आमच्यासाठी खूप महत्त्वाच्या आहेत. आपला दिवस शुभ असो! 💫</p>
+      <p class="fs-eng">Your feedback has been sent successfully to abhishekingole81@gmail.com</p>
+      <button class="btn-secondary" onclick="resetForm()"><i class="fas fa-redo"></i> आणखी पाठवा</button>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="footer-inner">
+    <div class="footer-brand-col">
+      <div class="footer-logo">
+        <span class="brand-ka sm">क</span>
+        <div>
+          <div class="footer-title">स्वप्रातला कवी</div>
+          <div class="footer-sub">अभिषेक इंगोले</div>
+        </div>
+      </div>
+      <p class="footer-desc">मनाच्या खोल कप्प्यातून उतरलेले शब्द... २१ हृदयस्पर्शी मराठी कवितांचा हा संग्रह तुमच्या भावनांना स्पर्श करेल.</p>
+      <div class="footer-socials">
+        <a href="mailto:abhishekingole81@gmail.com" title="Email"><i class="fas fa-envelope"></i></a>
+        <a href="https://www.instagram.com/abhishek.ingole.36?igsh=MWs0dHRkbjFsdXltbQ==" title="Instagram"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.facebook.com/share/1MZcThLg5L/" title="Facebook"><i class="fab fa-facebook"></i></a>
+        <a href="#" title="YouTube"><i class="fab fa-youtube"></i></a>
+      </div>
+    </div>
+    <div class="footer-links-col">
+      <h4>कविता</h4>
+      <a href="#poems" onclick="filterCat('all')">सर्व कविता</a>
+      <a href="#poems" onclick="filterCat('prem')">प्रेम कविता</a>
+      <a href="#poems" onclick="filterCat('aai')">आई-बाप</a>
+      <a href="#poems" onclick="filterCat('maitri')">मैत्री</a>
+      <a href="#poems" onclick="filterCat('samaj')">समाज</a>
+    </div>
+    <div class="footer-links-col">
+      <h4>संपर्क</h4>
+      <a href="mailto:abhishekingole81@gmail.com"><i class="fas fa-envelope"></i> abhishekingole81@gmail.com</a>
+      <a href="#"><i class="fas fa-map-marker-alt"></i> महाराष्ट्र, भारत</a>
+      <a href="#feedback"><i class="fas fa-comment"></i> अभिप्राय द्या</a>
+      <a href="#about"><i class="fas fa-user"></i> लेखकाविषयी</a>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>© २०२४ स्वप्रातला कवी · अभिषेक इंगोले · महाराष्ट्र, भारत 🇮🇳</p>
+    <p class="footer-quote">"कधी कधी शब्दच असतात... जे मनातलं सांगून जातात."</p>
+  </div>
+</footer>
+
+<!-- SCROLL TOP -->
+<button class="scroll-top" id="scrollTop" onclick="window.scrollTo({top:0,behavior:'smooth'})">
+  <i class="fas fa-arrow-up"></i>
+</button>
+
+<!-- EmailJS SDK -->
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
